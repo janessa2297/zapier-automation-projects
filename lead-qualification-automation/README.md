@@ -36,7 +36,26 @@ This project automates lead intake, enrichment requests, qualification scoring, 
 
 ## Verified Testing Evidence
 
-A high-priority test lead was classified with a score of 70, and a Gmail notification containing an AI-generated lead summary and outreach draft was received.
+## Verified Testing Evidence
+
+### High-Priority Lead Notification
+
+A high-priority test lead was processed with the following observed results:
+
+- Lead Score: **70**
+- Priority: **High**
+- Gmail notification: **Received successfully**
+- Email included an AI-generated lead summary and outreach draft.
+
+### Actual Gmail Notification Screenshot
+
+![High-Priority Lead Email Alert](screenshots/high-priority-email-alert.png)
+
+*Screenshot contains sanitized test data. This evidence confirms notification delivery, but does not independently establish successful Apollo enrichment or PostgreSQL persistence.*
+
+### QA Test Documentation
+
+See [TEST_CASES.md](TEST_CASES.md) for test scenarios, results, and pending verification.
 
 ## Integration Limitations
 
