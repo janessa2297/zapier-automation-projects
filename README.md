@@ -40,4 +40,27 @@ An eight-step lead processing workflow designed to automate lead intake, qualifi
 - AI-generated lead summaries and outreach drafts
 - Automated Gmail sales notifications
 
-**Verified Test Evidence
+### 3. Asana Task Lifecycle & Client Communication Automation
+
+**Technologies:** Zapier, Asana, Paths by Zapier, Google Drive, Gmail, Delay by Zapier, Filter by Zapier
+
+A multi-path automation workflow that responds to Asana task status changes and automates task management, client follow-ups, document retrieval, and email communications.
+
+**Key Features:**
+
+- Five conditional workflow paths based on Asana task status
+- Automated Google Drive folder creation
+- Automated Asana task creation
+- Multi-stage client follow-up emails
+- Delayed follow-up processing
+- Gmail response checks and conditional filtering
+- Google Drive PDF retrieval
+- Automated welcome and service notifications
+
+**Reported Testing Results:**
+
+- All five configured workflow paths passed functional testing.
+- Three successful Zap executions observed in Zap History.
+- Additional negative and edge-case testing recommended.
+
+**Documentation:** [View Asana Task Lifecycle Project](asana-task-lifecycle-automation/)
